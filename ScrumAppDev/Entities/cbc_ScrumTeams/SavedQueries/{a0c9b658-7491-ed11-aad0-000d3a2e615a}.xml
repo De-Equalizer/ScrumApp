@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>0</isdefault>
+    <savedqueryid>{a0c9b658-7491-ed11-aad0-000d3a2e615a}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="cbc_name" select="1" icon="1" preview="1">
+        <row name="result" id="cbc_scrumteamsid">
+          <cell name="cbc_name" width="200" />
+          <cell name="cbc_project" width="100" />
+          <cell name="cbc_description" width="100" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" output-format="xml-platform" mapping="logical" distinct="true">
+        <entity name="cbc_scrumteams">
+          <attribute name="cbc_name" />
+          <attribute name="cbc_scrumteamsid" />
+          <link-entity name="cbc_teammembers" alias="aa" link-type="inner" from="cbc_team" to="cbc_scrumteamsid">
+            <filter type="and">
+              <condition attribute="cbc_member" operator="eq-userid" />
+            </filter>
+          </link-entity>
+          <attribute name="cbc_project" />
+          <attribute name="cbc_description" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0.0.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Access View" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityRelationships xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <EntityRelationship Name="business_unit_cbc_scrumdailytoday" />
+  <EntityRelationship Name="business_unit_cbc_scrumteams" />
+  <EntityRelationship Name="business_unit_cbc_teammembers" />
+  <EntityRelationship Name="cbc_cbc_scrumdailytoday_Teams_cbc_scrumteams" />
+  <EntityRelationship Name="cbc_cbc_teammembers_Member_systemuser" />
+  <EntityRelationship Name="cbc_cbc_teammembers_Team_cbc_scrumteams" />
+  <EntityRelationship Name="cbc_scrumteams_cbc_ScrumMaster_systemuser" />
+  <EntityRelationship Name="lk_cbc_scrumdailytoday_createdby" />
+  <EntityRelationship Name="lk_cbc_scrumdailytoday_modifiedby" />
+  <EntityRelationship Name="lk_cbc_scrumteams_createdby" />
+  <EntityRelationship Name="lk_cbc_scrumteams_modifiedby" />
+  <EntityRelationship Name="lk_cbc_teammembers_createdby" />
+  <EntityRelationship Name="lk_cbc_teammembers_modifiedby" />
+  <EntityRelationship Name="owner_cbc_scrumdailytoday" />
+  <EntityRelationship Name="owner_cbc_scrumteams" />
+  <EntityRelationship Name="owner_cbc_teammembers" />
+  <EntityRelationship Name="team_cbc_scrumdailytoday" />
+  <EntityRelationship Name="team_cbc_scrumteams" />
+  <EntityRelationship Name="team_cbc_teammembers" />
+  <EntityRelationship Name="user_cbc_scrumdailytoday" />
+  <EntityRelationship Name="user_cbc_scrumteams" />
+  <EntityRelationship Name="user_cbc_teammembers" />
+</EntityRelationships>
