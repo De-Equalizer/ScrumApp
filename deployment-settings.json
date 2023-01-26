@@ -1,0 +1,15 @@
+{
+  "EnvironmentVariables": [
+    {
+      "SchemaName": "cbc_Email_Subject",
+      "Value": ""
+    }
+  ],
+  "ConnectionReferences": [
+    {
+      "LogicalName": "cbc_sharedoffice365_be5c9",
+      "ConnectionId": "",
+      "ConnectorId": "/providers/Microsoft.PowerApps/apis/shared_office365"
+    }
+  ]
+}
