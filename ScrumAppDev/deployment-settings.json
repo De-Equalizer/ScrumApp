@@ -1,0 +1,9 @@
+{
+  "EnvironmentVariables": [
+    {
+      "SchemaName": "cbc_Email_Subject",
+      "Value": ""
+    }
+  ],
+  "ConnectionReferences": []
+}
