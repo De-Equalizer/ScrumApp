@@ -6,7 +6,7 @@
       <LocalizedName description="Scrum App Dev" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.1</Version>
+    <Version>1.0.0.2</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>Charlon</UniqueName>
@@ -82,9 +82,15 @@
       <RootComponent type="1" schemaName="cbc_scrumteams" behavior="0" />
       <RootComponent type="1" schemaName="cbc_teammembers" behavior="0" />
       <RootComponent type="1" schemaName="systemuser" behavior="1" />
+      <RootComponent type="29" id="{1cfd36c0-a04f-ed11-bba3-000d3adf7694}" behavior="0" />
       <RootComponent type="300" schemaName="cbc_scrumapp_d500b" behavior="0" />
       <RootComponent type="9" schemaName="cbc_scrumstate" behavior="0" />
     </RootComponents>
-    <MissingDependencies />
+    <MissingDependencies>
+      <MissingDependency>
+        <Required type="connectionreference" displayName="cbc_sharedoffice365_be5c9" solution="Active" id.connectionreferencelogicalname="cbc_sharedoffice365_be5c9" />
+        <Dependent type="29" displayName="Click a button in Power Apps to send an email" id="{1cfd36c0-a04f-ed11-bba3-000d3adf7694}" />
+      </MissingDependency>
+    </MissingDependencies>
   </SolutionManifest>
 </ImportExportXml>
