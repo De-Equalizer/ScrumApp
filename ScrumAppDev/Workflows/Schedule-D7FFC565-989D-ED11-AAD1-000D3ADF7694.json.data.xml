@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Workflow WorkflowId="{1cfd36c0-a04f-ed11-bba3-000d3adf7694}" Name="Click a button in Power Apps to send an email" Description="Click a button in a Power Apps application to send a email to a specified email address." xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
-  <JsonFileName>/Workflows/ClickabuttoninPowerAppstosendanemail-1CFD36C0-A04F-ED11-BBA3-000D3ADF7694.json</JsonFileName>
+<Workflow WorkflowId="{d7ffc565-989d-ed11-aad1-000d3adf7694}" Name="Schedule" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <JsonFileName>/Workflows/Schedule-D7FFC565-989D-ED11-AAD1-000D3ADF7694.json</JsonFileName>
   <Type>1</Type>
   <Subprocess>0</Subprocess>
   <Category>5</Category>
@@ -15,15 +15,12 @@
   <StatusCode>2</StatusCode>
   <RunAs>1</RunAs>
   <IsTransacted>1</IsTransacted>
-  <IntroducedVersion>1.0.0.0</IntroducedVersion>
+  <IntroducedVersion>1.0.0.2</IntroducedVersion>
   <IsCustomizable>1</IsCustomizable>
   <BusinessProcessType>0</BusinessProcessType>
   <IsCustomProcessingStepAllowedForOtherPublishers>1</IsCustomProcessingStepAllowedForOtherPublishers>
   <PrimaryEntity>none</PrimaryEntity>
   <LocalizedNames>
-    <LocalizedName languagecode="1033" description="Click a button in Power Apps to send an email" />
+    <LocalizedName languagecode="1033" description="Schedule" />
   </LocalizedNames>
-  <Descriptions>
-    <Description languagecode="1033" description="Click a button in a Power Apps application to send a email to a specified email address." />
-  </Descriptions>
 </Workflow>
