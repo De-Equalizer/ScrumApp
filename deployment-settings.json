@@ -3,6 +3,10 @@
     {
       "SchemaName": "cbc_Email_Subject",
       "Value": ""
+    },
+    {
+      "SchemaName": "cbc_Random",
+      "Value": ""
     }
   ],
   "ConnectionReferences": [
