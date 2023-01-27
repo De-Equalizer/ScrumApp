@@ -6,7 +6,7 @@
       <LocalizedName description="Scrum App Dev" languagecode="1033" />
     </LocalizedNames>
     <Descriptions />
-    <Version>1.0.0.4</Version>
+    <Version>1.0.0.5</Version>
     <Managed>0</Managed>
     <Publisher>
       <UniqueName>Charlon</UniqueName>
@@ -82,6 +82,7 @@
       <RootComponent type="1" schemaName="cbc_scrumteams" behavior="0" />
       <RootComponent type="1" schemaName="cbc_teammembers" behavior="0" />
       <RootComponent type="1" schemaName="systemuser" behavior="1" />
+      <RootComponent type="29" id="{429236f1-429e-ed11-aad1-000d3adf7694}" behavior="0" />
       <RootComponent type="29" id="{d7ffc565-989d-ed11-aad1-000d3adf7694}" behavior="0" />
       <RootComponent type="300" schemaName="cbc_scrumapp_d500b" behavior="0" />
       <RootComponent type="9" schemaName="cbc_scrumstate" behavior="0" />

@@ -1,5 +1,4 @@
 <environmentvariabledefinition schemaname="cbc_Email_Subject">
-  <defaultvalue>Email Sending Subject</defaultvalue>
   <description default="Testing">
     <label description="Testing" languagecode="1033" />
   </description>
