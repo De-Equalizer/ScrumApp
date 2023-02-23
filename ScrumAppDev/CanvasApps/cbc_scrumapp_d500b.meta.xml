@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <Name>cbc_scrumapp_d500b</Name>
-  <AppVersion>2023-01-25T12:51:11Z</AppVersion>
+  <AppVersion>2023-02-23T12:10:33Z</AppVersion>
   <Status>Ready</Status>
-  <CreatedByClientVersion>3.22122.15.0</CreatedByClientVersion>
-  <MinClientVersion>3.22122.15.0</MinClientVersion>
-  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.22122.15","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20230111T123800Z-3.22122.15.0"}</Tags>
+  <CreatedByClientVersion>3.23021.21.0</CreatedByClientVersion>
+  <MinClientVersion>3.23021.21.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","publisherVersion":"3.23021.21","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","sienaVersion":"20230116T121110Z-3.22122.15.0"}</Tags>
   <IsCdsUpgraded>0</IsCdsUpgraded>
   <GalleryItemId xsi:nil="true"></GalleryItemId>
   <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
@@ -14,7 +14,7 @@
   <CommitMessage></CommitMessage>
   <Publisher></Publisher>
   <AuthorizationReferences>[]</AuthorizationReferences>
-  <ConnectionReferences>{"0f1ecbbd-472b-4db6-915c-87e58b18105a":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1611/1.0.1611.3104/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["UserPhotoMetadata","UserPhoto_V2"]}}</ConnectionReferences>
+  <ConnectionReferences>{"0f1ecbbd-472b-4db6-915c-87e58b18105a":{"id":"/providers/microsoft.powerapps/apis/shared_office365users","displayName":"Office 365 Users","iconUri":"https://connectoricons-prod.azureedge.net/releases/v1.0.1618/1.0.1618.3179/office365users/icon.png","dataSources":["Office365Users"],"dependencies":[],"dependents":[],"parameterHints":{},"parameterHintsV2":{},"isOnPremiseConnection":false,"bypassConsent":false,"dataSets":{},"apiTier":"Standard","actions":["UserPhotoMetadata","UserPhoto_V2"]}}</ConnectionReferences>
   <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"Environmental","environmentName":"default.cds","overrideValues":{"status":"NotSpecified"}},"dataSources":{"Scrum Teams":{"entitySetName":"cbc_scrumteamses","logicalName":"cbc_scrumteams"},"Scrum Team Members":{"entitySetName":"cbc_teammemberses","logicalName":"cbc_teammembers"},"Scrum Daily Todays":{"entitySetName":"cbc_scrumdailytodaies","logicalName":"cbc_scrumdailytoday"},"Users":{"entitySetName":"systemusers","logicalName":"systemuser"}}}}</DatabaseReferences>
   <CanConsumeAppPass>1</CanConsumeAppPass>
   <CanvasAppType>0</CanvasAppType>

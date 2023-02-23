@@ -57,7 +57,7 @@
           <Name>cbc_name</Name>
           <LogicalName>cbc_name</LogicalName>
           <RequiredLevel>none</RequiredLevel>
-          <DisplayMask>PrimaryName|ReadOnlyInUI|ValidForAdvancedFind|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
+          <DisplayMask>PrimaryName|ReadOnlyInUI|ValidForForm|ValidForGrid|RequiredForForm</DisplayMask>
           <ImeMode>auto</ImeMode>
           <ValidForUpdateApi>1</ValidForUpdateApi>
           <ValidForReadApi>1</ValidForReadApi>
@@ -681,7 +681,7 @@
               <displayname description="Status" languagecode="1033" />
             </displaynames>
             <Descriptions>
-              <Description description="Status of the Scrum Team Members" languagecode="1033" />
+              <Description description="Status of the Team Members" languagecode="1033" />
             </Descriptions>
             <states>
               <state value="0" defaultstatus="1" invariantname="Active">
@@ -741,7 +741,7 @@
               <displayname description="Status Reason" languagecode="1033" />
             </displaynames>
             <Descriptions>
-              <Description description="Reason for the status of the Scrum Team Members" languagecode="1033" />
+              <Description description="Reason for the status of the Team Members" languagecode="1033" />
             </Descriptions>
             <statuses>
               <status value="1" state="0">
