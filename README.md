@@ -1,5 +1,5 @@
 # Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+This is a Power Apps using Canvas App for Scrum Masters to record their scrum ceremony everyday, it's a good tool to keep up with the status of your developers. 
 
 # Getting Started
 TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
